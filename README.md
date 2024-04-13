@@ -27,7 +27,7 @@ git submodule update --init
 clone this repo
 ```
 cd ~
-git https://github.com/ahmadexp/rp2040-i2c-interface.git
+git clone https://github.com/ahmadexp/rp2040-i2c-interface.git
 ```
 
 create a build folder, link the pico-sdk and run cmake from it
