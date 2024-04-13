@@ -21,6 +21,7 @@ https://github.com/raspberrypi/pico-sdk
 ```
 cd ~
 git clone https://github.com/raspberrypi/pico-sdk.git
+git submodule update --init
 ```
 
 clone this repo
