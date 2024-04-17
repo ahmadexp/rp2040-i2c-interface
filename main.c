@@ -22,9 +22,16 @@
 #include "tusb.h"
 #include "usb_descriptors.h"
 
+// for Sparkfun ProMicro-RP2040
 #define I2C_INST i2c0
 #define I2C_SDA  16
 #define I2C_SCL  17
+
+// for Adafruit KB2040
+// #define I2C_INST i2c0
+// #define I2C_SDA  12
+// #define I2C_SCL  13
+
 
 int main(void) {
     board_init();
