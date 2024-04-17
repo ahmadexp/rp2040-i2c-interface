@@ -6,6 +6,7 @@ message("Build type: \"${CMAKE_BUILD_TYPE}\"")
 set(NAME i2c_adapter)
 
 # Board type
+#set(PICO_BOARD none)
 set(PICO_BOARD sparkfun_promicro)
 #set(PICO_BOARD adafruit_kb2040)
 
