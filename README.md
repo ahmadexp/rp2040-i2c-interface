@@ -10,9 +10,20 @@ More testing is needed to verify that the firmware works correctly, this project
 
 ## Pinout
 
+for Generic RP2040
+* I2C1
+* SDA (i2c data): GPIO 2
+* SCL (i2c clock): GPIO 3
+
+for Sparkfun
+* I2C0
 * SDA (i2c data): GPIO 16
 * SCL (i2c clock): GPIO 17
 
+for Adafruit KB2040
+* I2C0
+* SDA (i2c data): GPIO 12
+* SCL (i2c clock): GPIO 13
 
 ## Installation:
 
