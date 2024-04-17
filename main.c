@@ -22,6 +22,11 @@
 #include "tusb.h"
 #include "usb_descriptors.h"
 
+// for Pico Pi RP2040
+//#define I2C_INST i2c1
+//#define I2C_SDA  2
+//#define I2C_SCL  3
+
 // for Sparkfun ProMicro-RP2040
 #define I2C_INST i2c0
 #define I2C_SDA  16
