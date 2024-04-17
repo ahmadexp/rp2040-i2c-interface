@@ -30,6 +30,9 @@ cd ~
 git clone https://github.com/ahmadexp/rp2040-i2c-interface.git
 ```
 
+make sure you apply the necessary changes based on your board on the CMakeLists.txt file and main.c
+For the CMakeLists.txt should specify the board and on the main.c you should select the right pins for SDA, SCL and the i2c device (0 or 1).
+
 create a build folder, link the pico-sdk and run cmake from it
 ```
 cd ~
