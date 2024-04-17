@@ -7,6 +7,7 @@ set(NAME i2c_adapter)
 
 # Board type
 set(PICO_BOARD sparkfun_promicro)
+#set(PICO_BOARD adafruit_kb2040)
 
 # Fixes that allow some MCH2022 badges with a slowly starting oscillator to boot properly
 # add_compile_definitions(PICO_BOOT_STAGE2_CHOOSE_GENERIC_03H=1 PICO_XOSC_STARTUP_DELAY_MULTIPLIER=64)
