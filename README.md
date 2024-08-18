@@ -29,6 +29,11 @@ for Adafruit KB2040
 
 Make sure you have a clone of the PICO_SDK
 https://github.com/raspberrypi/pico-sdk
+and the necessary tools
+```
+sudo apt install cmake gcc-arm-none-eabi libnewlib-arm-none-eabi libstdc++-arm-none-eabi-newlib
+```
+then
 ```
 cd ~
 git clone https://github.com/raspberrypi/pico-sdk.git
